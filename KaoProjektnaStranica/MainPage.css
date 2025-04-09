@@ -1,0 +1,556 @@
+:root {
+    --fontFamily1:  "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #000e29;
+    color: #f0f0f0;
+}
+
+main {
+    font-family: "JetBrains Mono", Inter, system-ui, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+div.details {
+    padding-top: 7vw;
+    padding-bottom: 7vw;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+main img {
+    align-self: center;
+}
+
+
+
+
+
+/* The Header part*/
+
+#mainLogo {
+    width: 150px;
+    height: 150px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    background-color: #010d87;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#TodayThemeHolder {
+    display: flex;
+    background-color: #0049a3;
+    justify-content: center;
+}
+
+#TodayTheme {
+    font-family: var(--fontFamily1), serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #f0f0f0;
+}
+
+#mainTitle {
+    color: #f0f0f0;
+    font-size: 4rem;
+    font-family: var(--fontFamily1), serif;
+}
+
+
+
+
+
+
+/*Navbar design*/
+
+#navbar {
+    width: 100%;
+    background-color: #002448;
+    overflow-x: auto;
+    white-space: nowrap;
+    position: sticky;
+    top: 0;
+}
+
+#navbarList {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+}
+
+#navbarList li {
+    margin-top: 7px;
+    margin-right: 20px;
+    font-family: var(--fontFamily1), serif;
+    border-left: 2px solid #f0f0f0;
+    border-right: 2px solid #f0f0f0;
+}
+
+#navbarList a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+#navbarList a:hover {
+    background-color: #004870;
+    scale: 1.2;
+}
+
+#navbar::-webkit-scrollbar {
+    height: 8px;
+    background-color: #002448;
+}
+
+#navbar::-webkit-scrollbar-thumb {
+    background-color: #f0f0f0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Općenito*/
+
+
+
+
+
+/* Gmail */
+
+
+
+
+
+/* Google Drive */
+
+
+
+
+
+/* Google Meet */
+
+
+
+
+
+/* Google Calendar */
+
+#CalendarImage {
+    background-color: white;
+}
+
+
+
+/* Google Chat */
+
+#ChatImage {
+    background-color: white;
+}
+
+
+
+/* Gemini */
+
+#GeminiImage {
+    border: 1px solid white;
+}
+
+
+
+/* Google Docs */
+
+#DocsImage {
+    border: 2px solid white;
+}
+
+
+
+
+/* Google Sheets */
+
+#SheetsImage {
+    border: 2px solid white;
+}
+
+
+
+
+
+/* Google Sites */
+
+
+
+
+
+
+/* Google Forms */
+
+
+
+
+
+/* @media quareis */
+
+
+/* centering the navbar */
+@media screen and (min-width: 1640px) {
+    #navbarList {
+        justify-content: center;
+    }
+}
+
+
+/* Screen adjusting */
+
+
+/* 1st */
+@media screen and (max-width: 700px) {
+    div.details {
+        width: calc(400px + 5vw);
+    }
+
+    #workspaceLogo {
+        width: calc(400px + 5vw);
+    }
+
+    #GmailImage {
+        width: calc(400px + 5vw);
+    }
+
+    #DriveImage {
+        width: calc(400px + 5vw);
+    }
+
+    #MeetImage {
+        width: calc(400px + 5vw);
+    }
+
+    #CalendarImage {
+        width: calc(400px + 5vw);
+    }
+
+    #ChatImage {
+        width: calc(400px + 5vw);
+    }
+
+    #GeminiImage {
+        width: calc(400px + 5vw);
+    }
+
+    #DocsImage {
+        width: calc(400px + 5vw);
+    }
+    #SheetsImage {
+        width: calc(400px + 5vw);
+    }
+
+    #SitesImage {
+        width: calc(400px + 5vw);
+    }
+
+    #FormsImage {
+        width: calc(400px + 5vw);
+    }
+}
+
+
+/* 2nd */
+@media screen and (max-width: 1000px) and (min-width: 701px){
+    div.details {
+        width: calc(600px + 5vw);
+    }
+
+    #workspaceLogo {
+        width: calc(600px + 5vw);
+    }
+
+    #GmailImage {
+        width: calc(600px + 5vw);
+    }
+
+    #DriveImage {
+        width: calc(600px + 5vw);
+    }
+
+    #MeetImage {
+        width: calc(600px + 5vw);
+    }
+
+    #CalendarImage {
+        width: calc(600px + 5vw);
+    }
+
+    #ChatImage {
+        width: calc(600px + 5vw);
+    }
+
+    #GeminiImage {
+        width: calc(600px + 5vw);
+    }
+
+    #DocsImage {
+        width: calc(600px + 5vw);
+    }
+
+    #SheetsImage {
+        width: calc(600px + 5vw);
+    }
+
+    #SitesImage {
+        width: calc(600px + 5vw);
+    }
+
+    #FormsImage {
+        width: calc(600px + 5vw);
+    }
+}
+
+
+/* 3rd */
+@media screen and (max-width: 1300px) and (min-width: 1001px){
+    div.details {
+        width: calc(850px + 5vw);
+    }
+
+    #workspaceLogo {
+        width: calc(600px + 5vw);
+    }
+
+    #GmailImage {
+        width: calc(600px + 5vw);
+    }
+
+    #DriveImage {
+        width: calc(600px + 5vw);
+    }
+
+    #MeetImage {
+        width: calc(600px + 5vw);
+    }
+
+    #CalendarImage {
+        width: calc(600px + 5vw);
+    }
+
+    #ChatImage {
+        width: calc(600px + 5vw);
+    }
+
+    #GeminiImage {
+        width: calc(600px + 5vw);
+    }
+
+    #DocsImage {
+        width: calc(600px + 5vw);
+    }
+
+    #SheetsImage {
+        width: calc(600px + 5vw);
+    }
+
+    #SitesImage {
+        width: calc(600px + 5vw);
+    }
+
+    #FormsImage {
+        width: calc(600px + 5vw);
+    }
+}
+
+
+/* 4th */
+@media screen and (max-width: 1600px) and (min-width: 1301px){
+    div.details {
+        width: calc(1000px + 5vw);
+    }
+
+    #workspaceLogo {
+        width: calc(700px + 5vw);
+    }
+
+    #GmailImage {
+        width: calc(700px + 5vw);
+    }
+
+    #DriveImage {
+        width: calc(700px + 5vw);
+    }
+
+    #MeetImage {
+        width: calc(700px + 5vw);
+    }
+
+    #CalendarImage {
+        width: calc(700px + 5vw);
+    }
+
+    #ChatImage {
+        width: calc(700px + 5vw);
+    }
+
+    #GeminiImage {
+        width: calc(700px + 5vw);
+    }
+
+    #DocsImage {
+        width: calc(700px + 5vw);
+    }
+
+    #SheetsImage {
+        width: calc(700px + 5vw);
+    }
+
+    #SitesImage {
+        width: calc(700px + 5vw);
+    }
+
+    #FormsImage {
+        width: calc(700px + 5vw);
+    }
+}
+
+
+/* 5th */
+@media screen and (max-width: 1920px) and (min-width: 1601px){
+    div.details {
+        width: calc(1400px + 5vw);
+    }
+
+    #workspaceLogo {
+        width: calc(900px + 5vw);
+    }
+
+    #GmailImage {
+        width: calc(900px + 5vw);
+    }
+
+    #DriveImage {
+        width: calc(900px + 5vw);
+    }
+
+    #MeetImage {
+        width: calc(900px + 5vw);
+    }
+
+    #CalendarImage {
+        width: calc(900px + 5vw);
+    }
+
+    #ChatImage {
+        width: calc(900px + 5vw);
+    }
+
+    #GeminiImage {
+        width: calc(900px + 5vw);
+    }
+
+    #DocsImage {
+        width: calc(900px + 5vw);
+    }
+
+    #SheetsImage {
+        width: calc(900px + 5vw);
+    }
+
+    #SitesImage {
+        width: calc(900px + 5vw);
+    }
+
+    #FormsImage {
+        width: calc(900px + 5vw);
+    }
+}
+
+
+
+/* 6th */
+@media screen and (min-width: 1921px){
+    div.details {
+        width: calc(1600px + 5vw);
+    }
+
+    #workspaceLogo {
+        width: calc(1200px + 5vw);
+    }
+
+    #GmailImage {
+        width: calc(1200px + 5vw);
+    }
+
+    #DriveImage {
+        width: calc(1200px + 5vw);
+    }
+
+    #MeetImage {
+        width: calc(1200px + 5vw);
+    }
+
+    #CalendarImage {
+        width: calc(1200px + 5vw);
+    }
+
+    #ChatImage {
+        width: calc(1200px + 5vw);
+    }
+
+    #GeminiImage {
+        width: calc(1200px + 5vw);
+    }
+
+    #DocsImage {
+        width: calc(1200px + 5vw);
+    }
+
+    #SheetsImage {
+        width: calc(1200px + 5vw);
+    }
+
+    #SitesImage {
+        width: calc(1200px + 5vw);
+    }
+
+    #FormsImage {
+        width: calc(1200px + 5vw);
+    }
+}
+
+
+
+
+/* Footer */
